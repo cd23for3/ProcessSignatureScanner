@@ -18,4 +18,13 @@ A PowerShell script to audit running processes on a Windows machine and extract 
    ```powershell
    .\Process Signature Check.ps1
 
+## Example output
+Process: svchost | ID: 672 | Signer: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US | Status: Valid
+Process: unknownapp | ID: 10523 | Signer: Unsigned | Status: UnknownError
+
+
+
+
+
+
 ~Work in progress
